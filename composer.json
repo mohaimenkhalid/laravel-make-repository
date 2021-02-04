@@ -13,6 +13,14 @@
     "require-dev": {
         "orchestra/testbench": "^6.11"
     },
+    "autoload": {
+        "psr-4": {
+            "Mohaimen\\RepositoryMake\\": "src/"
+        }
+    },
+    "autoload-dev": {
+
+    },
     "extra": {
         "branch-alias": {
             "dev-master": "1.0-dev"
