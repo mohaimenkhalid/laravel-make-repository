@@ -1,0 +1,26 @@
+{
+    "name": "mohaimen/laravel-make-repository",
+    "description": "A small package for create repository",
+    "keywords": ["laravel", "make", "repository"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Abdul Mohaimen",
+            "email": "mohaimen707@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "orchestra/testbench": "^6.11"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Mohaimen\\RepositoryMake\\RepositoryMakeCommandServiceProvider"
+            ]
+        }
+    }
+}
